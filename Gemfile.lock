@@ -113,7 +113,6 @@ GEM
     drb (2.2.1)
     erubi (1.13.1)
     ffi (1.17.1-x86_64-darwin)
-    ffi (1.17.1-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -164,8 +163,6 @@ GEM
     nio4r (2.7.4)
     nokogiri (1.18.3-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-linux-gnu)
-      racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.5.9)
     pp (0.6.2)
@@ -178,7 +175,7 @@ GEM
     puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.11)
+    rack (3.1.12)
     rack-session (2.1.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -271,7 +268,6 @@ GEM
 
 PLATFORMS
   x86_64-darwin-24
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
